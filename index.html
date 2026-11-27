@@ -56,6 +56,15 @@
   @keyframes pulse { 50% { opacity: 0.3; } }
   @media (prefers-reduced-motion: reduce) { .badge::before { animation: none; } }
 
+  .event {
+    margin: 28px auto 0; max-width: 34rem;
+    padding: 14px 20px; border-radius: 12px;
+    background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--orange);
+    font-size: 1.05rem; color: var(--ink);
+  }
+  .event a { color: var(--orange); font-weight: 700; text-decoration: none; }
+  .event a:hover { text-decoration: underline; }
+
   section.about { padding: 56px 0 24px; }
   .lede { font-size: 1.2rem; max-width: 62ch; margin: 0 auto 36px; text-align: center; }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
@@ -82,6 +91,7 @@
     <h1>The <span>Drone</span> Lab</h1>
     <p class="tagline">Teaching software engineering in the age of AI, with drones.</p>
     <span class="badge">Coming soon</span>
+    <p class="event">Join our hands-on tutorial at <a href="https://conf.researchr.org/home/icse-2027">ICSE 2027</a>, on the Tuesday of ICSE week.</p>
   </header>
 
   <section class="about wrap">

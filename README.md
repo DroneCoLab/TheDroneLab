@@ -8,6 +8,8 @@
 
 <p align="center">🚧 <em>Coming soon.</em> 🚧</p>
 
+<p align="center">🎓 Join our hands-on tutorial at <a href="https://conf.researchr.org/home/icse-2027"><strong>ICSE 2027</strong></a>, on the Tuesday of ICSE week.</p>
+
 ---
 
 The Drone Lab is a lightweight, multi-UAV software engineering environment that runs on an ordinary laptop. No drones and no prior UAV experience are needed.
