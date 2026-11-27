@@ -19,10 +19,6 @@ It brings together two shifts in software engineering:
 
 The guiding principle: **use AI, but verify, challenge, understand, and take responsibility for the engineered system.**
 
-<p align="center">
-  <img src="assets/hero.jpg" alt="A multi-UAV missing-person search mission in the Drone Lab dashboard" width="800">
-</p>
-
 ## Status
 
 The platform, teaching materials and course structure are being prepared for an open-source release. Watch this repository for updates.
