@@ -27,4 +27,7 @@ The guiding principle: **use AI, but verify, challenge, understand, and take res
 
 The platform, teaching materials and course structure are being prepared for an open-source release. Watch this repository for updates.
 
+Developed at the University of Notre Dame.
+Contact: JaneClelandHuang(at)nd(dot)edu
+
 🌐 **Website:** https://dronecolab.github.io/TheDroneLab/

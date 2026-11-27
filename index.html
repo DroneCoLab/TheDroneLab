@@ -82,6 +82,7 @@
   footer { padding: 56px 0 40px; text-align: center; color: var(--muted); font-size: 0.95rem; }
   footer a { color: var(--slate); font-weight: 600; }
   footer a:hover { color: var(--orange); }
+  footer .affil { color: var(--slate); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -120,7 +121,20 @@
 
   <footer class="wrap">
     <p>The platform, teaching materials and course structure are being prepared for an open-source release.</p>
+    <p class="affil">Developed at the University of Notre Dame</p>
+    <p>Contact: <span id="contact">JaneClelandHuang(at)nd(dot)edu</span></p>
     <p><a href="https://github.com/DroneCoLab/TheDroneLab">Follow on GitHub</a> · <a href="https://github.com/DroneCoLab">DroneCoLab</a></p>
   </footer>
+  <script>
+    (function () {
+      var u = ["Jane", "Cleland", "Huang"].join(""), d = ["nd", "edu"].join(".");
+      var a = document.createElement("a");
+      a.href = "mai" + "lto:" + u + "\u0040" + d;
+      a.textContent = u + "\u0040" + d;
+      var el = document.getElementById("contact");
+      el.textContent = "";
+      el.appendChild(a);
+    })();
+  </script>
 </body>
 </html>
